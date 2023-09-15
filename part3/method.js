@@ -13,3 +13,4 @@ biodata.sayHelo('budi')
 
 const result = biodata.penjumlahan(10, 15)
 console.log(result);
+
