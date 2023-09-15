@@ -43,10 +43,10 @@ console.log(penjumlahData);
 //     age : 18
 // }
 
-// const sayHi = function(biodata){
-//     const text = `helo ${biodata.name} apakabar! , umur saya ${biodata.age}`
-//     return text
-// }
+const sayHi = function(biodata){
+    const text = `helo ${biodata.name} apakabar! , umur saya ${biodata.age}`
+    return text
+}
 // const hasilHi = sayHi(myData)
 
 // console.log(hasilHi);

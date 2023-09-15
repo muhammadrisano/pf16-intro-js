@@ -17,6 +17,6 @@ const checkPassingGrade = (grade) =>{
     return nilai
 }
 
-const gradeCheckMessage = checkPassingGrade(80)
-console.log(gradeCheckMessage);
+// const gradeCheckMessage = checkPassingGrade(80)
+// console.log(gradeCheckMessage);
 // output: “Selamat, anda lolos!”
