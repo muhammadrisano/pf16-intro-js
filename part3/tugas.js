@@ -34,21 +34,28 @@ pijar camp
 */
 
 // soal 3
-const arr1 = []
-const arr2 = []
+// const hob
+const hobies1 = ['ngoding, joging', 'gaming']
+const hobies2 = ['reading', 'writing', 'swimming']
 const combineArray = (data1, data2) =>{
-
-    return // nilai array
+    // spread operator
+    const result = [
+        ...data1,
+        ...data2
+    ]
+    return result
 }
 
-const combinedArray = combineArray(arr1, arr2)
+const combinedArray = combineArray(hobies1, hobies2)
 
-const combineObjects = (data1, data2)=>{
-// logic
-    return //nilai object yg sudah tergabung 
-}
-const obj1 = {}
-const obj2 = {}
-const combinedObjects = combineObjects(obj1, obj2)
-console.log(combinedObjects);
+console.log(combinedArray);
+
+// const combineObjects = (data1, data2)=>{
+// // logic
+//     return //nilai object yg sudah tergabung 
+// }
+// const obj1 = {}
+// const obj2 = {}
+// const combinedObjects = combineObjects(obj1, obj2)
+// console.log(combinedObjects);
 
